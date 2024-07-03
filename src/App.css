@@ -1,0 +1,315 @@
+* {
+  /* padding: 0px;
+  margin: 0px; */
+  /* outline: none;   */
+  /* outline  line lam none ku */
+  box-sizing: border-box;
+  /* page shake aagama iruka */
+  scroll-behavior: smooth;
+  /* scroll smooth ah move aagum */
+
+}
+
+.logo1 img {
+  margin-left: 4vh;
+}
+
+/* .mainnav {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+} */
+
+.nav1 {
+  display: flex;
+  gap: 20px;
+  margin-top: 2vh;
+  background-color: rgb(35, 122, 208);
+}
+
+.nav1 img {
+  width: 40px;
+  height: 40px;
+  margin-top: 2vh;
+}
+
+.navbtn {
+  margin-top: 2vh;
+}
+
+.navbtn input {
+  width: 360px;
+  height: 53px;
+  border-radius: 25px;
+  font-size: 16px;
+  border: none;
+  width: 430px;
+}
+
+.navbtn ::placeholder {
+  color: rgb(5, 60, 116);
+}
+
+.searchicon {
+  margin-left: 59vh;
+  margin-top: -5.5vh;
+  color: white;
+  font-size: 25px;
+}
+
+.srh{
+  background-color: yellow;
+  border-radius: 50px;
+}
+
+.btn1 {
+  display: flex;
+  gap: 10px;
+  border-radius: 30px;
+  background-color: rgb(69, 69, 157);
+  font-size: 15px;
+  height: 60px;
+  width: 320px;
+  color: white;
+  margin-top: 1.6vh;
+  padding-left: 2vh;
+}
+
+.btntxt {
+  margin-top: -1vh;
+}
+
+.btntxt p {
+  margin-bottom: 0.1vh;
+  font-weight: bold;
+}
+
+.btntxt select {
+  border: none;
+  background-color: rgb(69, 69, 157);
+  color: white;
+  position: absolute;
+  top: 7vh;
+}
+
+.hearticon {
+  margin-right: 12vh;
+  position: absolute;
+  top: 6vh;
+  font-size: 25px;
+}
+
+.items {
+  margin-left: -0.5vh;
+  color: white;
+}
+
+.itemtxt {
+  margin-left: 5vh;
+}
+
+.carticon {
+  margin-right: 12vh;
+  position: absolute;
+  top: 4vh;
+  font-size: 30px;
+  left: 174.5vh;
+}
+
+.carttxt {
+  margin-top: 6.5vh;
+  margin-left: 4vh;
+}
+
+/* 2nd nav */
+.nav2 {
+  display: flex;
+  background-color: rgb(227, 236, 247);
+  height: 60px;
+}
+
+.navlists {
+  display: flex;
+  margin-left: 2vh;
+  margin-top: 2.3vh;
+  font-size: 14px;
+  gap: 24px;
+  list-style: none;
+}
+
+.navlists :hover {
+  text-decoration: underline;
+}
+
+.navhead {
+  margin-left: 5vh;
+  margin-top: 2vh;
+  font-size: 16px;
+  display: flex;
+  font-weight: bold;
+  gap: 15px;
+}
+
+
+
+.gridicon {
+  font-size: 19px;
+}
+
+.navhead select {
+  margin-left: -1.5vh;
+  margin-top: -2vh;
+  border: none;
+  background-color: rgb(227, 236, 247);
+}
+
+/* pics */
+
+.productpics {
+  display: grid;
+  grid-template-columns: 250px 500px 250px;
+  gap: 40px;
+  margin-top: 3vh;
+}
+
+.productpics img {
+  border-radius: 20px;
+}
+
+/* startpoint imagess */
+
+.start {
+  margin-left: 4vh;
+}
+
+.start img {
+  width: 290px;
+  height: 180px;
+}
+
+.start1txt {
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  top: 26vh;
+  left: 8vh;
+}
+
+.start1txt span {
+  font-weight: lighter;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.start2 img {
+  margin-top: 2vh;
+  height: 478px;
+}
+
+.start3 img {
+  margin-top: 3vh;
+  width: 290px;
+  height: 180px;
+}
+
+/* centerpoint images */
+.center {
+  margin-left: 8vh;
+}
+
+.center1txt {
+  font-size: 18px;
+  position: absolute;
+  top: 22vh;
+  left: 55vh;
+}
+
+.center1txt p {
+  position: absolute;
+  top: 5vh;
+}
+
+.center1txt li {
+  list-style: none;
+  font-weight: bold;
+  margin-top: 10vh;
+  color: rgb(48, 47, 47);
+  font-size: 40px;
+}
+
+.center1txt span {
+  position: absolute;
+  top: 23vh;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(243, 244, 245);
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.center2 img {
+  width: 280px;
+  height: 300px;
+  margin-top: 3vh;
+  margin-bottom: -3vh;
+  margin-left: 2vh;
+}
+
+.center3 img {
+  width: 280px;
+  height: 300px;
+  margin-left: 46vh;
+  margin-top: -46vh;
+}
+
+.center1 img {
+  width: 600px;
+  height: 350px;
+}
+
+.center4 img {
+  margin-top: 3vh;
+  width: 600px;
+  height: 180px;
+}
+
+
+/* end point images */
+
+.end1 {
+  margin-left: 19.5vh;
+}
+
+.end1 img {
+  width: 290px;
+  height: 180px;
+}
+
+.end1txt {
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  top: 26vh;
+  left: 145vh;
+}
+
+.end1txt span {
+  font-weight: lighter;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.end2 img {
+  margin-top: 2vh;
+  width: 290px;
+  height: 210px;
+}
+
+.end3 img {
+  margin-top: 3vh;
+  width: 290px;
+  height: 450px;
+}
